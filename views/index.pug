@@ -1,0 +1,59 @@
+doctype html
+html
+  head
+  
+    style
+      include ../static/style.css
+    body
+    nav#navbar
+            ul 
+                div#logo
+                  img(src="/static/img/5.ico")
+
+            
+                li #[a(href="/") Home] 
+                li #[a(href="/") About] 
+                li #[a(href="/") Services] 
+                li #[a(href="/") Class Info] 
+                li #[a(href="/") Contact Us]
+
+
+    section#introSection 
+        | Welcome To Our Yoga Academy
+    
+    section#missionSection 
+        h2 Our mission
+        div.card
+            h3 Yoga Perfection
+            div.card-box
+              div.card-img
+                img(src="/static/img/1.png")
+                div.card-content
+                h4 This Is The Best Yoga Academy Of The India
+        div.card
+            h3 Yoga The Way You Like
+             div.card-box
+              div.card-img
+                img(src="/static/img/2.png")
+                div.card-content
+                h4 This Is The Best Yoga Academy Of The India
+        div.card
+            h3 Expert Teaching
+             div.card-box
+              div.card-img
+                img(src="/static/img/3.png")
+                div.card-content
+                h4 This Is The Best Yoga Academy Of The India
+
+    section#sponsorsSection 
+        h2 Our sponsors
+        img(src="/static/img/logo1.png", alt="Sponsors Image", class="spImage")
+        img(src="/static/img/logo2.png", alt="Sponsors Image", class="spImage")
+        img(src="/static/img/logo3.png", alt="Sponsors Image", class="spImage")
+        img(src="/static/img/logo4.png", alt="Sponsors Image", class="spImage")
+       
+    footer#footer
+        | Copyright © 2021 mrrahul.com | All rights reserved
+                
+    script
+      include ../static/index.js
